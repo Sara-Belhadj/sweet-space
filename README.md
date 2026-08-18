@@ -8,7 +8,7 @@ This project is a creative and interactive website that I'm building from scratc
 
 The project is still under development. The first page currently introduces the visual style and overall direction of the website.
 
-assets\backgrounds\home.png
+<img src="assets\backgrounds\home.png" class="homePage">
 
 ## 🚧 What's Coming
 

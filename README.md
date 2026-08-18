@@ -1,4 +1,4 @@
-# 🌸 [Project Name]
+# 🌸 Sweet Space
 
 > A personal web project currently in development.
 
@@ -8,7 +8,7 @@ This project is a creative and interactive website that I'm building from scratc
 
 The project is still under development. The first page currently introduces the visual style and overall direction of the website.
 
-"C:\Users\sarax\OneDrive\Pictures\Screenshots\Capture d’écran 2026-08-18 002342.png"
+"assets\background\home.png
 
 ## 🚧 What's Coming
 

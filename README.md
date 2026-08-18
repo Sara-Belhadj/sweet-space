@@ -8,7 +8,7 @@ This project is a creative and interactive website that I'm building from scratc
 
 The project is still under development. The first page currently introduces the visual style and overall direction of the website.
 
-<img width="2818" height="1483" alt="image" src="<img width="2850" height="1531" alt="image" src="https://github.com/user-attachments/assets/11f58ba1-b6e5-4167-a609-8ae9948152a4"/>
+<img width="2850" height="1531" alt="image" src="https://github.com/user-attachments/assets/11f58ba1-b6e5-4167-a609-8ae9948152a4"/>
 
 ## 🚧 What's Coming
 

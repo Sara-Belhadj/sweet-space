@@ -8,7 +8,8 @@ This project is a creative and interactive website that I'm building from scratc
 
 The project is still under development. The first page currently introduces the visual style and overall direction of the website.
 
-<img width="2818" height="1483" alt="image" src="C:\Users\sarax\OneDrive\Pictures\Screenshots\Capture d’écran 2026-08-18 002342.png" />
+<img width="2818" height="1483" alt="image" src="![Uploading image.png…]()
+" />
 
 ## 🚧 What's Coming
 

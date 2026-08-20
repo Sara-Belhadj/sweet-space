@@ -204,7 +204,6 @@ h1 {
 
 .sidebar-nav {
     width: 200px;
-    height: 100%;
     border: 1px solid #e6c2d6;
     border-radius: 15px;
     margin: 10px;
@@ -242,11 +241,11 @@ h1 {
 
 .logo-homePage p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Pixelify Sans', sans-serif;
     color: #6a468c;
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .logo-homePage .heart {
@@ -260,8 +259,10 @@ h1 {
     background: linear-gradient(153deg, #f9c8e1 , #f9ddea);
 }
 
-.main div{
-    height: 100vh;
-    height: 100%;
-    background-color: #5b2c86;
+.main {
+    width: 200px;
+    border: 1px solid #e6c2d6;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #fce7ef;
 }

@@ -260,9 +260,14 @@ h1 {
 }
 
 .main {
-    width: 200px;
+    width: 100%;
     border: 1px solid #e6c2d6;
     border-radius: 15px;
     margin: 10px;
     background-color: #fce7ef;
+}
+
+.main img {
+    height: auto;
+    width: 100%;
 }

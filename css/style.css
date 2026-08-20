@@ -204,7 +204,7 @@ h1 {
 
 .sidebar-nav {
     width: 200px;
-    border: 1px solid #e6c2d6;
+    border: 1px solid #d496b8;
     border-radius: 15px;
     margin: 10px;
     background-color: #fce7ef;
@@ -216,21 +216,43 @@ h1 {
     text-align: center;
     justify-content: center;
     padding: 10px;
+    background-color: #f7dae4;
+    border: 1px solid #d496b8;
+    transform: scale(1.01);
+    border-radius: 15px 15px 0px 0px;
 }
 
 .sidebar-nav ul {
     list-style: none;
     line-height: 30px;
+    padding: 0;
+    margin: 20px 5px 20px 5px;
 }
 
 .sidebar-nav a {
+    display: block;
     text-decoration: none;
-    line-height: 30px;
-    font-size: 16px;
-    line-height: 50px;
+    font-size: 13px;
+    line-height: 40px;
     font-family: 'Varela Round', sans-serif;
     font-weight:600;
     color: #6a468c;
+    text-align: center;
+}
+
+.hp-home.active,
+.hp-apps.active,
+.hp-favorites.active,
+.hp-recent.active,
+.hp-achievement.active,
+.hp-goals.active,
+.hp-costumize.active,
+.hp-setting.active {
+    background-color: #fbd1e0;
+    width: 100%;
+    border: 1px solid #f8c4d6;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .logo-homePage img {
@@ -239,9 +261,9 @@ h1 {
     width: 55px;
 }
 
-.logo-homePage p {
+.logo-homePage p {transform: scaleY(1.02);
     font-weight: 500;
-    font-size: 23px;
+    font-size:23px;
     font-family: 'Pixelify Sans', sans-serif;
     color: #6a468c;
     margin: 0;
@@ -260,14 +282,56 @@ h1 {
 }
 
 .main {
-    width: 100%;
-    border: 1px solid #e6c2d6;
-    border-radius: 15px;
     margin: 10px;
+    border: 1px solid #d496b8;
+    border-radius: 15px;
     background-color: #fce7ef;
 }
 
 .main img {
-    height: auto;
+    display: block;
     width: 100%;
+    height: auto;
+    margin-top: -78px;
+    border: #d496b8;
+    border-radius: 15px;
+}
+
+.hp-home, 
+.hp-apps, 
+.hp-favorites, 
+.hp-recent,
+.hp-achievement,
+.hp-goals,
+.hp-costumize,
+.hp-setting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.hp-home img, 
+.hp-apps img, 
+.hp-favorites img, 
+.hp-recent img,
+.hp-achievement img,
+.hp-goals img,
+.hp-costumize img,
+.hp-setting img {
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+.line {
+    height: 2px;
+    margin: 10px;
+    background: #f6d6e1;
+}
+
+.motivation {
+    object-fit: contain;
+    width: 210px;
+    height: auto;
 }

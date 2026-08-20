@@ -105,7 +105,8 @@ h1 {
     font-family: 'Varela Round', sans-serif;
     font-weight:600;
     color: #6a468c;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 .bar img {
     height: 30px;
@@ -197,4 +198,70 @@ h1 {
     font-size: 25px;
     margin: 0;
     color: #ffffff;
+}
+
+/* Home Page */
+
+.sidebar-nav {
+    width: 200px;
+    height: 100%;
+    border: 1px solid #e6c2d6;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #fce7ef;
+}
+
+.logo-homePage {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 16px;
+    line-height: 50px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:600;
+    color: #6a468c;
+}
+
+.logo-homePage img {
+    object-fit: contain;
+    height: 65px;
+    width: 55px;
+}
+
+.logo-homePage p {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #6a468c;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.logo-homePage .heart {
+    height: 30px;
+    width: 30px;
+}
+
+.home-page {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(153deg, #f9c8e1 , #f9ddea);
+}
+
+.main div{
+    height: 100vh;
+    height: 100%;
+    background-color: #5b2c86;
 }

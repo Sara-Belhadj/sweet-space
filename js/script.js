@@ -1,5 +1,5 @@
 const startButton = document.querySelector(".startButton");
 
-startButton.addEventListener("click", function() {
-    window.location.href = "home.html";
-});
+    startButton.addEventListener("click", function() {
+        window.location.href = "homePage.html";
+    });

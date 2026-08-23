@@ -14,10 +14,13 @@ const navLinks = document.querySelectorAll(".nav-link");
         link.addEventListener("click", function() {
 
             navLinks.forEach(link => {
-                link.classList.remove("active");
+                link.parentElement.parentElement.classList.remove("active");
             });
 
-        this.classList.add("active");
-    });
+        this.parentElement.parentElement.classList.add("active");
 
-});
+        this.parentElement.parentElement.querySelector("img").src = 
+            this.parentElement.parentElement.querySelector("img").dataset.active;
+       });
+    });
+ 

@@ -249,10 +249,10 @@ h1 {
 .hp-costumize.active,
 .hp-setting.active {
     background-color: #fbd1e0;
-    width: 100%;
     border: 1px solid #f8c4d6;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 .logo-homePage img {
@@ -309,6 +309,8 @@ h1 {
     align-items: center;
     gap: 10px;
     padding-left: 20px;
+    border: 1px solid transparent;
+
 }
 
 .hp-home img, 

@@ -337,3 +337,16 @@ h1 {
     width: 210px;
     height: auto;
 }
+
+/* HOME SECTION */
+.title_home-section {
+    display:flex;
+    align-items: center;  
+    margin: 10px;  
+}
+
+.title_home-section img {
+    display: block;
+    height: auto;
+    width: 30px;
+}

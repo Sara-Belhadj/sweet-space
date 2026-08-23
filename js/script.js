@@ -12,15 +12,23 @@ const navLinks = document.querySelectorAll(".nav-link");
 
     navLinks.forEach(link => {
         link.addEventListener("click", function() {
+            const item = this.parentElement.parentElement;
 
             navLinks.forEach(link => {
-                link.parentElement.parentElement.classList.remove("active");
+                const otherItem = link.parentElement.parentElement;
+
+                otherItem.querySelector("a").style.color = "#6a468c";
+                otherItem.classList.remove("active");
+                otherItem.querySelector("img").src = 
+                    otherItem.querySelector("img").dataset.default;
             });
 
-        this.parentElement.parentElement.classList.add("active");
+        item.classList.add("active");
 
-        this.parentElement.parentElement.querySelector("img").src = 
-            this.parentElement.parentElement.querySelector("img").dataset.active;
-       });
+        item.querySelector("img").src = 
+            item.querySelector("img").dataset.active;
+        
+        item.querySelector("a").style.color = "#7a3254";
+        });
     });
  

@@ -368,7 +368,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     flex-direction: row;
-    gap: 5px;
+    gap: 20px;
 }
 
 .timer-app,
@@ -382,10 +382,42 @@ h1 {
 .calculator-app,
 .memory-app {
     width: 200px;
-    height: 230px;
+    height: 210px;
     box-sizing: border-box;
     border: 1px solid #d496b8;
     border-radius: 10px;
     overflow: hidden;
     background-color: #fff7fb;
+    cursor: pointer;
+}
+
+.timer-app img,
+.pet-app img,
+.messenger-app img,
+.cookie-app img,
+.lucky-app img,
+.weather-app img,
+.todo-app img,
+.musicPlayer-app img,
+.calculator-app img,
+.memory-app img {
+    height: 130px;
+    width: 200px;
+}
+
+.boxes h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight:600;
+    font-size: 15px;
+    margin: 6px;
+    color: #561a4f;
+}
+
+.boxes p {
+    font-family: 'Varela Round', sans-serif;
+    font-weight:600;
+    font-size: 13px;
+    margin: 0px 10px 10px 6px;
+    color: #6a468c;
+    line-height: 1.5;
 }

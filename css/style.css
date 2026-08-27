@@ -288,11 +288,12 @@ h1 {
     background-color: #fce7ef;
 }
 
-.main img {
+.main .banner {
     display: block;
     width: 100%;
     height: auto;
     margin-top: -78px;
+    margin-bottom: -70px;
     border: #d496b8;
     border-radius: 15px;
 }
@@ -339,14 +340,52 @@ h1 {
 }
 
 /* HOME SECTION */
+#home-section { 
+    margin: 5px 20px 20px 20px; 
+}
+
 .title_home-section {
-    display:flex;
-    align-items: center;  
-    margin: 10px;  
+    display: flex;
+    gap: 10px;
+
 }
 
 .title_home-section img {
-    display: block;
     height: auto;
     width: 30px;
+}
+
+.title_home-section h4 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight:600;
+    color: #561a4f;
+}
+
+.boxes {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-direction: row;
+    gap: 5px;
+}
+
+.timer-app,
+.pet-app,
+.messenger-app,
+.cookie-app,
+.lucky-app,
+.weather-app,
+.todo-app,
+.musicPlayer-app,
+.calculator-app,
+.memory-app {
+    width: 200px;
+    height: 230px;
+    box-sizing: border-box;
+    border: 1px solid #d496b8;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff7fb;
 }

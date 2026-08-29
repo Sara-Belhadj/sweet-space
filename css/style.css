@@ -444,3 +444,10 @@ h1 {
 .section.active {
     display: block;
 }
+
+.construction {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+}

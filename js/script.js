@@ -30,12 +30,15 @@ const navLinks = document.querySelectorAll(".nav-link");
         
         item.querySelector("a").style.color = "#7a3254";
         });
+
+
     });
     
 
     /* HOME SECTION */
     const homeLinks = document.querySelectorAll(".sidebar-nav a");
     const sections = document.querySelectorAll(".section");
+    const home = document.querySelector(".home-section");
 
     homeLinks.forEach( link => {
         
@@ -49,3 +52,4 @@ const navLinks = document.querySelectorAll(".nav-link");
             target.classList.add("active");
         });
     });
+    document.querySelector("#home-section").classList.add("active");

@@ -7,6 +7,18 @@ if(startButton) {
     });
 }
 
+/* INITIAL PAGE */
+const homeLink = document.querySelector('a[href="#home-section"]');
+const homeItem = homeLink.parentElement.parentElement;
+const homeSection = document.querySelector("#home-section");
+
+homeItem.classList.add("active");
+homeLink.style.color = "#7a3254";
+homeItem.querySelector("img").src =
+    homeItem.querySelector("img").dataset.active;
+
+homeSection.classList.add("active");
+
 /* HOME PAGE NAVIGATION */
 const navLinks = document.querySelectorAll(".nav-link");
 
@@ -19,18 +31,15 @@ const navLinks = document.querySelectorAll(".nav-link");
 
                 otherItem.querySelector("a").style.color = "#6a468c";
                 otherItem.classList.remove("active");
-                otherItem.querySelector("img").src = 
-                    otherItem.querySelector("img").dataset.default;
+                otherItem.querySelector("img").src = otherItem.querySelector("img").dataset.default;
             });
 
         item.classList.add("active");
 
-        item.querySelector("img").src = 
-            item.querySelector("img").dataset.active;
+        item.querySelector("img").src = item.querySelector("img").dataset.active;
         
         item.querySelector("a").style.color = "#7a3254";
         });
-
 
     });
     
@@ -52,4 +61,3 @@ const navLinks = document.querySelectorAll(".nav-link");
             target.classList.add("active");
         });
     });
-    document.querySelector("#home-section").classList.add("active");

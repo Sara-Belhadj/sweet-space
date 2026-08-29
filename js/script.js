@@ -31,4 +31,21 @@ const navLinks = document.querySelectorAll(".nav-link");
         item.querySelector("a").style.color = "#7a3254";
         });
     });
- 
+    
+
+    /* HOME SECTION */
+    const homeLinks = document.querySelectorAll(".sidebar-nav a");
+    const sections = document.querySelectorAll(".section");
+
+    homeLinks.forEach( link => {
+        
+        link.addEventListener("click", function() {
+
+            sections.forEach(section => {
+                section.classList.remove("active");
+            });
+
+            const target = document.querySelector(this.getAttribute("href"));
+            target.classList.add("active");
+        });
+    });

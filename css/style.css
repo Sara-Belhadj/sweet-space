@@ -389,6 +389,20 @@ h1 {
     overflow: hidden;
     background-color: #fff7fb;
     cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.timer-app:hover,
+.pet-app:hover,
+.messenger-app:hover,
+.cookie-app:hover,
+.lucky-app:hover,
+.weather-app:hover,
+.todo-app:hover,
+.musicPlayer-app:hover,
+.calculator-app:hover,
+.memory-app:hover {
+    transform: scale(1.04);
 }
 
 .timer-app img,
@@ -420,4 +434,12 @@ h1 {
     margin: 0px 10px 10px 6px;
     color: #6a468c;
     line-height: 1.5;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
 }

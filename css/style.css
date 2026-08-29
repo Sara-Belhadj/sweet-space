@@ -339,23 +339,25 @@ h1 {
     height: auto;
 }
 
+
+
 /* HOME SECTION */
-#home-section { 
+#all_apps-section { 
     margin: 5px 20px 20px 20px; 
 }
 
-.title_home-section {
+.title_all_apps-section {
     display: flex;
     gap: 10px;
 
 }
 
-.title_home-section img {
+.title_all_apps-section img {
     height: auto;
     width: 30px;
 }
 
-.title_home-section h4 {
+.title_all_apps-section h4 {
     margin: 0;
     font-size: 20px;
     font-family: 'Varela Round', sans-serif;

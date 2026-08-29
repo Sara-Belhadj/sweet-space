@@ -7,17 +7,12 @@ if(startButton) {
     });
 }
 
+
 /* INITIAL PAGE */
-const homeLink = document.querySelector('a[href="#home-section"]');
-const homeItem = homeLink.parentElement.parentElement;
-const homeSection = document.querySelector("#home-section");
+const homeItem = document.querySelector("#home-nav");
 
-homeItem.classList.add("active");
-homeLink.style.color = "#7a3254";
-homeItem.querySelector("img").src =
-    homeItem.querySelector("img").dataset.active;
-
-homeSection.classList.add("active");
+    homeItem.querySelector("a").style.color = "#7a3254";
+    homeItem.querySelector("img").src = homeItem.querySelector("img").dataset.active;
 
 /* HOME PAGE NAVIGATION */
 const navLinks = document.querySelectorAll(".nav-link");

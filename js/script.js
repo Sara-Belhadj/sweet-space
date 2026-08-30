@@ -51,7 +51,6 @@ const navLinks = document.querySelectorAll(".nav-link");
             sections.forEach(section => {
                 section.classList.remove("active");
             });
-
             const target = document.querySelector(this.getAttribute("href"));
             target.classList.add("active");
         });
